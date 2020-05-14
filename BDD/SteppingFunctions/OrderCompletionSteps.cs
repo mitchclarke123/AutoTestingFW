@@ -45,10 +45,5 @@ namespace AutomationProjectTestFramework
                 Is.EqualTo("Your order on My Store is complete."));
 
         }
-        [AfterScenario()]
-        public void DisposeWebDriver()
-        {
-            _automation.seleniumDriver.Dispose();
-        }
     }
 }

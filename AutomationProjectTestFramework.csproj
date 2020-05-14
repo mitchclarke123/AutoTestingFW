@@ -128,6 +128,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppConfigReader.cs" />
+    <Compile Include="BDD\SteppingFunctions\EmailNotValidRegistrationTestSteps.cs" />
     <Compile Include="BDD\SteppingFunctions\OrderCompletionSteps.cs" />
     <Compile Include="lib\AutomatedProjectWebsite.cs" />
     <Compile Include="lib\driver_config\SeleniumDriverConfig.cs" />
@@ -147,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="BDD\Gherkin\EmailNotValidRegistrationTest.feature" />
     <None Include="BDD\Gherkin\OrderCompletionTest.feature" />
     <None Include="packages.config" />
   </ItemGroup>
